@@ -32,8 +32,19 @@ Acknowledgement of the repository:
   publisher={IEEE}
 }
 ```
-
-the dataset structure: 
+Acknowledgement of the dataset:
+```
+@inproceedings{exiDdataset,
+               title={The exiD Dataset: A Real-World Trajectory Dataset of Highly Interactive Highway Scenarios in Germany},
+               author={Moers, Tobias and Vater, Lennart and Krajewski, Robert and Bock, Julian and Zlocki, Adrian and Eckstein, Lutz},
+               booktitle={2022 IEEE Intelligent Vehicles Symposium (IV)},
+               pages={958-964},
+               year={2022},
+               doi={10.1109/IV51971.2022.9827305}}
+```
+              
+## Dataset structure: 
+```
 C:\exiD-tools\data\
 ├── 00_tracks.csv
 ├── 00_tracksMeta.csv
@@ -49,3 +60,4 @@ C:\exiD-tools\data\
 └── Maps/
     ├── location1.osm      ← Lanelet2 HD map
     └── location1.xodr     ← OpenDrive HD map
+```
