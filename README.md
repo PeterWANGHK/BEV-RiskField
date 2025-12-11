@@ -46,16 +46,6 @@ C:\exiD-tools\data\
     └── location1.xodr     ← OpenDrive HD map
 ```
 
-Acknowledgement of the repository: 
-```
-@article{huang2021driving,
-  title={Driving Behavior Modeling Using Naturalistic Human Driving Data With Inverse Reinforcement Learning},
-  author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2021},
-  publisher={IEEE}
-}
-```
 Acknowledgement of the dataset:
 ```
 @inproceedings{exiDdataset,
