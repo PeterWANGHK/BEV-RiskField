@@ -12,13 +12,13 @@ python exid_enhanced_svo_visualization.py --data_dir "C:\exiD-tools\data" --reco
 python exid_svo_apf_visualization.py --data_dir "C:\exiD-tools\data" --recording 25 --output_dir "./output"
 ```
 
-## car interaction visualization (original version):
+## car interaction visualization (enhanced version, pending frame enhancements):
 ```shell
 # Interactive visualization (main program)
-python exid_interactive_svo_visualization.py --data_dir /path/to/exid/data --recording 25
+python exid_optimized_visualization.py --data_dir /path/to/exid/data --recording 25
 
 # Static analysis plots
-python exid_svo_visualization.py --data_dir /path/to/exid/data --recording 25
+python exid_interactive_visualization.py --data_dir /path/to/exid/data --recording 25
 ```
 
 ## The following programs need the activation of "drone-dataset-tool38":
