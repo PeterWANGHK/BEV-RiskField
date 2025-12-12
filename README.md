@@ -1,7 +1,7 @@
 # exiD-DSVO
 Modelling of Dynamic Social Value Orientation based on exiD dataset
 
-![The example visualization of Gaussian Velocity Fields of ego truck and surrounding vehicles in exiD merging scenarios](examples/)
+![The example visualization of Gaussian Velocity Fields of ego truck and surrounding vehicles in exiD merging scenarios](examples/gvf_svo_recording29_ego11_frame189.png)
 
 (My exiD dataset has been archived in "C:\exiD-tools\data", so the data directory needs to be tailored for other users)
 ## complete visualization of mutual SVO with symmetric evaluations:
