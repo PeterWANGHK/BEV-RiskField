@@ -19,13 +19,20 @@ python exid_gvf_svo_visualization.py --data_dir "C:\exiD-tools\data" --recording
 
 ![The example visualization of Gaussian Velocity Fields of ego truck and surrounding vehicles in exiD merging scenarios](examples/gvf_svo_recording29_ego11_frame189.png)
 
-# Mechanical Wave Modeling
+# Mechanical Wave (Aggressiveness) Modeling
 visualization of Aggressiveness Distributions of ego truck and surrounding vehicles:
 ```shell
 python exid_mech_svo_visualization.py --data_dir "C:\exiD-tools\data" --recording 25
 ```
 
 ![The example visualization of Aggressiveness Distributions of ego truck and surrounding vehicles in exiD merging scenarios](examples/mw_aggr_recording25_ego17_frame0.png)
+
+# Group Aggressiveness Modeling
+visualization of Aggressiveness Distributions of ego truck and surrounding vehicles (aggregated as a group):
+```shell
+python exid_mech_group_visualization.py --data_dir "C:\exiD-tools\data" --recording 25
+```
+![The example visualization of Aggressiveness Distributions of ego truck and surrounding vehicles as a group in exiD merging scenarios](examples/group_wave_rec25_ego17_frame60.png)
 
 # APF Modeling
 visualization of mutual SVO with symmetric evaluations:
