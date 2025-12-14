@@ -60,6 +60,12 @@ python exid_optimized_visualization.py --data_dir /path/to/exid/data --recording
 # Static analysis plots
 python exid_corrected_svo_visualization.py --data_dir /path/to/exid/data --recording 25
 ```
+## Bayseian Survival Analysis (inspired from paper "Bayesian survival analysis of interactions between truck platoons and surrounding vehicles through a two-dimensional surrogate safety measure"):
+```shell
+python exid_bayesian_platoon.py --data_dir C:\exiD-tools\data --recording 25 --output_dir ./your_defined_subfolder
+```
+![The example visualization of the safety assessment between truck platooning (filterd by headway time) and surrounding cars in exiD merging scenarios](examples/survival_analysis_rec25.png)
+
 
 ## The following programs need the activation of "drone-dataset-tool38":
 ```shell
