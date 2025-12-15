@@ -36,6 +36,7 @@ python exid_mech_group_visualization.py --data_dir "C:\exiD-tools\data" --record
 ![The example visualization of Aggressiveness Distributions of ego truck and surrounding vehicles as a group in exiD merging scenarios](examples/group_wave_rec25_ego17_frame60.png)
 
 ## Safe Corridor with Gap Assessment Modeling
+referenced: "SGTP: A Safety-Guaranteed Trajectory Planning Algorithm for Autonomous Vehicles Using Gap-Oriented Spatio-Temporal Corridor" (IEEE-TVT)
 visualization of mutual SVO with symmetric evaluations:
 ```shell
 python exid_sgtp_gap.py --data_dir "C:\exiD-tools\data" --recording 25 --output_dir "./enhanced_output"
