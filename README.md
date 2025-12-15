@@ -37,6 +37,7 @@ python exid_mech_group_visualization.py --data_dir "C:\exiD-tools\data" --record
 
 ## Safe Corridor with Gap Assessment Modeling
 referenced: "SGTP: A Safety-Guaranteed Trajectory Planning Algorithm for Autonomous Vehicles Using Gap-Oriented Spatio-Temporal Corridor" (IEEE-TVT)
+
 visualization of mutual SVO with symmetric evaluations:
 ```shell
 python exid_sgtp_gap.py --data_dir "C:\exiD-tools\data" --recording 25 --output_dir "./enhanced_output"
@@ -63,7 +64,8 @@ python exid_optimized_visualization.py --data_dir /path/to/exid/data --recording
 python exid_corrected_svo_visualization.py --data_dir /path/to/exid/data --recording 25
 ```
 ## Bayseian Survival Analysis:
-### (inspired from paper "Bayesian survival analysis of interactions between truck platoons and surrounding vehicles through a two-dimensional surrogate safety measure")
+referenced: "Bayesian survival analysis of interactions between truck platoons and surrounding vehicles through a two-dimensional surrogate safety measure"
+
 ```shell
 python exid_bayesian_platoon.py --data_dir C:\exiD-tools\data --recording 25 --output_dir ./your_defined_subfolder
 ```
