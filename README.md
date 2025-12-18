@@ -70,8 +70,13 @@ referenced: "Bayesian survival analysis of interactions between truck platoons a
 ```shell
 python exid_bayesian_platoon.py --data_dir C:\exiD-tools\data --recording 25 --output_dir ./your_defined_subfolder
 ```
-![The example visualization of the safety assessment between truck platooning (filterd by headway time) and surrounding cars in exiD merging scenarios](examples/survival_analysis_rec25.png)
 
+## Classification of agent roles and occlusion analysis
+
+```shell
+python exid_role_occulusion_analysis.py --data_dir C:\exiD-tools\data --recording 25 --output_dir ./your_defined_subfolder
+```
+![The example visualization of Safe Corridors of surrounding vehicles in exiD merging scenarios](examples/role_occlusion_rec25_ego17_frame210.png)
 
 ## The following programs need the activation of "drone-dataset-tool38":
 ```shell
