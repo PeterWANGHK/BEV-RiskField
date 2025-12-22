@@ -67,7 +67,9 @@ python exid_bayesian_platoon.py --data_dir C:\exiD-tools\data --recording 25 --o
 ```shell
 python exid_role_occulusion_analysis.py --data_dir C:\exiD-tools\data --recording 25  --ego_id 101 --output_dir ./your_defined_subfolder 
 ```
-![The example visualization of Safe Corridors of surrounding vehicles in exiD merging scenarios](examples/animation.gif)
+![The example visualization of the role classification and occlusion scenarios in exiD merging scenarios](examples/animation.gif)
+![The example visualization of the role classification and occlusion scenarios in exiD merging scenarios](examples/occlusion_aware_gvf_comparison.png)
+
 
 ## The following programs need the activation of "drone-dataset-tool38":
 ```shell
