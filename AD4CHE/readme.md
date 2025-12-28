@@ -10,20 +10,6 @@ This program is adapted from the exiD dataset analysis program for use with the 
 4. **Visualization** - Traffic snapshots, role distributions, and occlusion tables
 5. **CSV Logging** - Exports occlusion events for training/analysis
 
-## Key Format Differences (exiD → AD4CHE)
-
-| Feature | exiD | AD4CHE |
-|---------|------|--------|
-| Background image | `XX_background.png` | `XX_highway.png` |
-| Track ID column | `trackId` | `id` |
-| Position columns | `xCenter`, `yCenter` | `x`, `y` |
-| Heading | `heading` (degrees) | `orientation` (radians) |
-| Vehicle dimensions (meta) | `width`, `length` | `width` (=length), `height` (=width) |
-| Scale parameter | `orthoPxToMeter` | `scale` (1 pixel = X meters) |
-| Lane info | Needs inference | `laneId`, `drivingDirection` provided |
-| Surrounding vehicles | Needs computation | `precedingId`, `followingId`, etc. provided |
-| Coordinate system | origin at upper-left, y grows down | Same as HighD reference |
-
 ## AD4CHE-Specific Features Used
 
 - **`drivingDirection`**: 1 = upper lanes (left direction), 2 = lower lanes (right direction)
