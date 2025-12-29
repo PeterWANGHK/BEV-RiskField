@@ -1,6 +1,6 @@
-# Highway Ramp Merging Interaction Fields Modeling
-## repo under continous updating
-Modelling of state-of-the-art Interaction Fields with Social Value Orientation based on various BEV datasets
+# Highway Ramp Merging Interaction Fields Modeling (repo under continous updating)
+
+This interim repo contains packages for modelling of state-of-the-art Interaction Fields with Social Value Orientation based on various BEV datasets
 (My sample exiD dataset has been archived in "C:\exiD-tools\data", so the data directory needs to be tailored for other users)
 
 ## GVF Modeling
