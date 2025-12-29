@@ -22,6 +22,7 @@ This program framework is adapted from the exiD dataset analysis program for use
 - **Surrounding vehicle IDs**: `precedingId`, `followingId`, `leftPrecedingId`, `leftAlongsideId`, `leftFollowingId`, `rightPrecedingId`, `rightAlongsideId`, `rightFollowingId`
 
 ## Usage
+(the directory of the AD4CHE should be changed from ./data to the specific directory, here ./data is the default name for example)
 
 ```bash
 # Basic usage
