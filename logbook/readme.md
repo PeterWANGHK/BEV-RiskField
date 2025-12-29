@@ -2,7 +2,7 @@
 
 ### 1. **Gradient-Based Field Driving Policy**
 
-If your field is a vector field (as in GVF or potential fields), you can:
+If the modeled field is a vector field (as in GVF or potential fields), you can:
 
 * Interpret the **negative gradient direction as the desired movement** (analogous to force or utility gradient).
 * Use this as a **prior or shaping reward** in RL agents (SAC, PPO).
@@ -30,13 +30,13 @@ Based on the paper *“Socially Game-Theoretic Lane-Change for Autonomous Heavy 
 
 ### 3. **Field-Guided RL Policy**
 
-Your RL policy (e.g., SAC or PPO) can operate over:
+The RL policy (e.g., SAC or PPO) can operate over:
 
 * **State + Field input**: Treat field maps (e.g., GVF from the `exid_gvf_svo_visualization.py` script) as input channels like image features.
 * **Gradient reward shaping**: Add reward terms that align vehicle motion with field gradients.
 * **Constraint-based penalty**: Penalize actions that violate physics-informed interpretations of the field (e.g., unsafe gaps, opposing flows).
 
-This would allow your field-based representation to act as an **inductive prior**, making training more sample-efficient.
+This would allow the field-based representation to act as an **inductive prior**, making training more sample-efficient.
 
 ---
 
@@ -45,7 +45,7 @@ This would allow your field-based representation to act as an **inductive prior*
 Based on the paper *“Interaction-aware Decision-making using Social Value Orientation”*:
 
 * Each interaction pair gets an SVO value based on relative motion, risk, and proximity.
-* These can be **predicted from field derivatives**, as in your existing pipeline (GVF → SVO via context-aware computation).
+* These can be **predicted from field derivatives**, as in the existing pipeline (GVF → SVO via context-aware computation).
 * **Field can inform SVO**: SVO may be treated as a latent trait inferred from field features (velocity disparity, convergence zones, etc.).
 
 In the `exid_gvf_svo_visualization.py` script, this is already implemented:
