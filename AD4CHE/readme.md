@@ -10,6 +10,8 @@ This program framework is adapted from the exiD dataset analysis program for use
 4. **Visualization** - Traffic snapshots, role distributions, and occlusion tables
 5. **CSV Logging** - Exports occlusion events for training/analysis
 
+![The example visualization of the occlusion scenarios in AD4CHE highway dataset](02_ego_occlusion.png)
+
 ## AD4CHE-Specific Features Used
 
 - **`drivingDirection`**: 1 = upper lanes (left direction), 2 = lower lanes (right direction)
