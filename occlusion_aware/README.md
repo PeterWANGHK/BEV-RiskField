@@ -16,7 +16,8 @@ In highway merging scenarios with trucks, **occlusion creates epistemic uncertai
          🚗 ─────────────X────────→ 🚙
               CAN'T SEE!           IS HIDDEN
 ```
-![The example occlusion scenarios in highway merging scenarios](occlusion_aware/occlusion_merging.png)
+
+![The example occlusion scenarios in highway merging scenarios](occlusion_merging.png)
 
 **Standard GVF/APF Problem**: Traditional fields treat all vehicles equally, assuming perfect observation. But the ego vehicle **cannot accurately assess** the state of occluded vehicles.
 
