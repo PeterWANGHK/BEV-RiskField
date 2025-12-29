@@ -1,8 +1,8 @@
-# AD4CHE Role & Occlusion Analysis Program
+# AD4CHE Role & Occlusion Analysis
 
 ## Overview
 
-This program is adapted from the exiD dataset analysis program for use with the **AD4CHE (Aerial Dataset for China Congested Highway and Expressway)** format. It provides:
+This program framework is adapted from the exiD dataset analysis program for use with the **AD4CHE (Aerial Dataset for China Congested Highway and Expressway)** format. It provides:
 
 1. **Agent Role Classification** - Identifies vehicle behavioral roles (Normal, Merging, Exiting, Yielding)
 2. **Occlusion Detection** - Detects when trucks/buses block the view between vehicles
