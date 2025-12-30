@@ -67,6 +67,8 @@ output_ad4che/
     ├── occlusion_log.csv          # CSV of occlusion events
     └── metadata.json              # Analysis metadata
 ```
+## occlusion scenario with combined field modeling:
+![The example visualization of the occlusion scenarios in AD4CHE highway dataset](occlusion_rec23_ego294_frame3609.png)
 
 ## Occlusion Research Context
 
