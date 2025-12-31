@@ -36,6 +36,9 @@ python ad4che_role_occlusion_analysis.py --data_dir ./data --recording 1 --no-an
 
 # Log occlusions for all frames (for training data)
 python ad4che_role_occlusion_analysis.py --data_dir ./data --recording 1 --log-all-frames
+
+# example usage for the specific recording and ego ID:
+python ad4che_ns_occlusion_field.py single --recording 1 --frame 250 --ego_id 12 --output_dir ./output_interaction --animate --animation_frames 60 --animation_step 2
 ```
 
 ## Command Line Arguments
