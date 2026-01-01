@@ -1,4 +1,4 @@
-# Highway Ramp Merging Interaction Fields Modeling (repo under continuous updating)
+# A Comparative Study of Risk Field Representations for Interactive Driving in Mixed Traffic (repo under continuous updating)
 
 This interim repo contains packages for modelling of state-of-the-art Interaction Fields with Social Value Orientation based on various BEV datasets
 (My sample exiD dataset has been archived in "C:\exiD-tools\data", so the data directory needs to be tailored for other users)
