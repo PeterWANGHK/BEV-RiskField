@@ -51,7 +51,7 @@ python exid_svo_apf_visualization.py --data_dir "C:\exiD-tools\data" --recording
 ```
 
 ## EDRF Modeling
-integrating deep learning-based multimodal trajectory prediction results with Gaussian distribution models to quantitatively capture the uncertainty of traffic entities’ behavior (ITSC 2024)
+integrating deep learning-based multimodal trajectory prediction results with Gaussian distribution models to quantitatively capture the uncertainty of traffic entities’ behavior (ITSC 2024)
 ```shell
 python exid_erdf_visualization.py --data_dir C:\field_modeling\data\exiD --occlusion-csv "C:\field_modeling\src\output_roles\rec35_ego13_frame140\occlusion_log.csv" --occlusion-row 5 --occlusion-ego-role blocked --output_dir ./output_occlusion_gvf_exid --light-theme
 ```
