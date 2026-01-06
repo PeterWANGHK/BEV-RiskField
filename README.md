@@ -66,7 +66,9 @@ python exid_bayesian_platoon.py --data_dir C:\exiD-tools\data --recording 25 --o
 ## Classification of agent roles and occlusion analysis
 
 ```shell
-python exid_role_occlusion_analysis.py --data_dir C:\exiD-tools\data --recording 25  --ego_id 101 --output_dir ./your_defined_subfolder 
+python exid_role_occlusion_analysis.py --data_dir C:\exiD-tools\data --recording 25  --ego_id 101 --output_dir ./your_defined_subfolder
+# sample usage:
+python exid_role_occlusion_analysis.py --data_dir C:\field_modeling\data\exiD --recording 32 --no-animation --display-neighbors 3 --max-ego-occlusions 3 --align-horizontal
 ```
 ![The example visualization of the role classification and occlusion scenarios in exiD merging scenarios](examples/animation.gif)
 ![The example visualization of the role classification and occlusion scenarios in exiD merging scenarios](examples/occlusion_aware_gvf_comparison.png)
