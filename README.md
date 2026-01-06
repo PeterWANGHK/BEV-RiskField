@@ -18,6 +18,8 @@ referenced: "Spatiotemporal learning of multivehicle interaction patterns in lan
 visualization of Gaussian Velocity Fields of ego truck and surrounding vehicles:
 ```shell
 python exid_gvf_svo_visualization.py --data_dir "C:\exiD-tools\data" --recording 25
+#sample usage with logged csv recording the occlusion scenario in exiD:
+python exid_gvf_svo_visualization.py --data_dir C:\field_modeling\data\exiD --occlusion-csv "C:\field_modeling\src\output_roles\rec35_ego13_frame140\occlusion_log.csv" --occlusion-row 5 --occlusion-ego-role blocked --output_dir ./output_occlusion_gvf_exid
 ```
 
 ![The example visualization of Gaussian Velocity Fields of ego truck and surrounding vehicles in exiD merging scenarios](examples/gvf_svo_recording29_ego11_frame189.png)
